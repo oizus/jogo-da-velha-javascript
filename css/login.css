@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    font-family: 'Press Start 2P', cursive;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.login>div {
+    width: 500px;
+    margin: auto;
+    border: 10px solid greenyellow;
+    border-radius: 50px;
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+    height: 520px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    box-shadow: -5px -5px 30px 5px greenyellow, 5px 5px 30px 5px greenyellow;
+
+    /* box-shadow:  greenyellow 0px -12px 30px, greenyellow 0px 4px 6px, greenyellow 0px 10px 13px, greenyellow 0px -3px 5px; */
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 90%;
+    margin: 10px 0px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid greenyellow;
+    margin-top: 20px;
+    outline: none;
+        
+}
+
+.login input[type="button"] {
+    width: 90%;
+    margin: 20px 0px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;   
+    outline: none;
+}
+
+.login input[type="button"]:hover {
+    background-color: greenyellow;
+    color: black;
+    box-shadow: -5px -5px 30px 5px greenyellow, 5px 5px 30px 5px greenyellow;
+}
+
+.login p {
+    font-size: 10px;
+}
+
+a:link,
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: greenyellow;
+
+    text-shadow: 0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px greenyellow,
+        0 0 82px greenyellow,
+        0 0 92px greenyellow,
+        0 0 102px greenyellow,
+        0 0 151px greenyellow;
+
+}
+
+.sustenido {
+    font-size: 40px;
+    color: greenyellow;
+
+    text-shadow: 0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px greenyellow,
+        0 0 42px greenyellow,
+        0 0 82px greenyellow,
+        0 0 92px greenyellow,
+        0 0 102px greenyellow,
+        0 0 151px greenyellow;
+}
+
